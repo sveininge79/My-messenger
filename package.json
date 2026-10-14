@@ -1,0 +1,22 @@
+{
+  "name": "my-messenger",
+  "version": "1.0.0",
+  "description": "Standalone Desktop Messenger",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "dist": "electron-builder"
+  },
+  "author": "Your Name",
+  "build": {
+    "appId": "com.mymessenger.app",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.7.2",
+    "electron-builder": "^26.7.0"
+  }
+}
